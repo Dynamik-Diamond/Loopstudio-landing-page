@@ -14,3 +14,7 @@
 
 - [font Awesome](https://fontawesome.com/) - I got the Bar
   and Times icon for my Navigation menu from here
+
+- - [stack overflow](https://stackoverflow.com/questions/3622756/button-center-css) -
+    This article help wih centering my "see all button" for
+    the mobile design
