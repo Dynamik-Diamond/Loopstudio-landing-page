@@ -49,12 +49,30 @@
                 class="harmburger-btn"
               />
             </div>
+            <ul class="nav-list">
+              <li class="nav-link">
+                <a href="#">About</a>
+              </li>
+              <li class="nav-link">
+                <a href="#">Careers</a>
+              </li>
+              <li class="nav-link">
+                <a href="#">Events</a>
+              </li>
+              <li class="nav-link">
+                <a href="#">Products</a>
+              </li>
+              <li class="nav-link">
+                <a href="#">Support</a>
+              </li>
+            </ul>
           </div>
           <!--END OF NAV HEADER  -->
 
           <!-- SIDE BAR -->
-          <aside class="side-bar">
-            <div class="side-bar-menu">
+          <aside class="sidebar-wrapper">
+            <!-- SIDE BAR WRAPPER -->
+            <div class="sidebar-menu container">
               <img
                 src="./images/logo.svg"
                 alt=""
@@ -68,13 +86,24 @@
                 />
               </div>
             </div>
-            <ul class="nav-list">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Events</a></li>
-              <li><a href="#">Products</a></li>
-              <li><a href="#">Support</a></li>
+            <ul class="sidebar-list container">
+              <li class="sidebar-link">
+                <a href="#">About</a>
+              </li>
+              <li class="sidebar-link">
+                <a href="#">Careers</a>
+              </li>
+              <li class="sidebar-link">
+                <a href="#">Events</a>
+              </li>
+              <li class="sidebar-link">
+                <a href="#">Products</a>
+              </li>
+              <li class="sidebar-link">
+                <a href="#">Support</a>
+              </li>
             </ul>
+            <!-- END OF SIDE BAR WRAPPER -->
           </aside>
           <!-- END OF SIDE BAR -->
         </nav>
@@ -126,11 +155,12 @@
       </section>
       <!-- END OF VR SECTION -->
       <!-- CREATION SECTION -->
-      <section class="section">
+      <section class="section creation">
         <div class="creation-section container">
           <!-- TITLE WRAPPER -->
-          <div class="title-wrapper">
+          <div class="title-wrapper creation-header">
             <h2 class="title">Our creations</h2>
+            <button class="title-btn">see all</button>
           </div>
           <!-- IMAGE CONTAINER -->
           <div class="card-container">
@@ -228,7 +258,7 @@
                 />
                 <source
                   media="(min-width:768px)"
-                  srcset="images/desktop/image-grid.jpg.jpg"
+                  srcset="images/desktop/image-grid.jpg"
                   class="img"
                 />
                 <img
@@ -255,7 +285,7 @@
                 <source
                   media="(min-width:768px)"
                   srcset="
-                    images/desktop/image-from-above.jp
+                    images/desktop/image-from-above.jpg
                   "
                   class="img"
                 />
@@ -357,59 +387,65 @@
       <!-- END OF CREATION SECTION -->
       <!-- FOOTER SECTION  -->
       <footer class="footer">
-        <div class="footer-img-container">
-          <img
-            src="./images/logo.svg"
-            alt="logo"
-            class="footer-img"
-          />
+        <div class="footer-container container">
+          <div class="col-1">
+            <img
+              src="./images/logo.svg"
+              alt="logo"
+              class="footer-img"
+            />
+            <ul class="footer-list">
+              <li class="footer-link">
+                <a href="#">About</a>
+              </li>
+              <li class="footer-link">
+                <a href="#">Careers</a>
+              </li>
+              <li class="footer-link">
+                <a href="#">Events</a>
+              </li>
+              <li class="footer-link">
+                <a href="#">Products</a>
+              </li>
+              <li class="footer-link">
+                <a href="#">Support</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <!-- FOOTER ICON -->
+            <ul class="footer-icon">
+              <li class="icon-link">
+                <img
+                  src="./images/icon-facebook.svg"
+                  alt="facebook "
+                />
+              </li>
+              <li class="icon-link">
+                <img
+                  src="./images/icon-twitter.svg"
+                  alt="twitter icon"
+                />
+              </li>
+              <li class="icon-link">
+                <img
+                  src="./images/icon-pinterest.svg"
+                  alt="pinterest icon"
+                />
+              </li>
+              <li class="icon-link">
+                <img
+                  src="./images/icon-instagram.svg"
+                  alt="instagram icon"
+                />
+              </li>
+            </ul>
+            <!-- END OF FOOTER ICON -->
+            <p class="footer-copyRight">
+              © 2021 Loopstudios. All rights reserved.
+            </p>
+          </div>
         </div>
-        <ul class="footer-list">
-          <li class="footer-link"><a href="#">About</a></li>
-          <li class="footer-link">
-            <a href="#">Careers</a>
-          </li>
-          <li class="footer-link">
-            <a href="#">Events</a>
-          </li>
-          <li class="footer-link">
-            <a href="#">Products</a>
-          </li>
-          <li class="footer-link">
-            <a href="#">Support</a>
-          </li>
-        </ul>
-        <!-- FOOTER ICON -->
-        <ul class="footer-icon">
-          <li class="icon-link">
-            <img
-              src="./images/icon-facebook.svg"
-              alt="facebook "
-            />
-          </li>
-          <li class="icon-link">
-            <img
-              src="./images/icon-twitter.svg"
-              alt="twitter icon"
-            />
-          </li>
-          <li class="icon-link">
-            <img
-              src="./images/icon-pinterest.svg"
-              alt="pinterest icon"
-            />
-          </li>
-          <li class="icon-link">
-            <img
-              src="./images/icon-instagram.svg"
-              alt="instagram icon"
-            />
-          </li>
-        </ul>
-        <!-- END OF FOOTER ICON -->
-        <p class="footer-copyRight">
-          © 2021 Loopstudios. All rights reserved.
-        </p>
       </footer>
     </main>
     <!-- About Careers Events Products Support Immersive
