@@ -93,15 +93,6 @@ h5 {
   font-size: 1.25rem;
 }
 
-span {
-  display: inline-block;
-}
-
-small,
-.text_small {
-  font-size: 0.8rem;
-}
-
 a {
   text-decoration: none;
 }
@@ -119,19 +110,6 @@ ul {
 }
 
 /* ******UNITLIY CLASSES********* */
-.btn {
-  cursor: pointer;
-  color: var(--white);
-  border: transparent;
-  border-radius: var(--boaderRadius);
-  letter-spacing: var(--letter-Spacing);
-  padding: 0.375rem 0.75rem;
-  box-shadow: var(--shadow-1);
-  transition: var(--transition);
-  text-transform: capitalize;
-  display: inline-block;
-}
-
 .container {
   width: 85%;
   max-width: var(--max-Width);
@@ -191,7 +169,7 @@ ul {
       no-repeat center center/cover;
   }
 
-  .header::before {
+  /* .header::before {
     position: absolute;
     content: '';
     height: 100%;
@@ -199,7 +177,7 @@ ul {
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.1);
-  }
+  } */
 
   .nav {
     width: 85%;
@@ -360,7 +338,7 @@ section {
     max-width: 500px;
     position: absolute;
     left: 45%;
-    top: 23%;
+    top: 35%;
     padding: 2em;
   }
 }
@@ -410,6 +388,7 @@ picture::before {
   box-shadow: var(--shadow-1);
   transition: var(--transition);
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .title-btn {
@@ -445,6 +424,7 @@ picture::before {
   }
 
   .title-btn {
+    cursor: pointer;
     display: block;
     outline: none;
     border: 2px solid var(--very-dark-gray);
@@ -458,6 +438,15 @@ picture::before {
     letter-spacing: 5px;
     box-shadow: var(--shadow-1);
     transition: var(--transition);
+  }
+
+  .title-btn:hover {
+    background: var(--black);
+    color: var(--white);
+  }
+
+  .card-btn {
+    display: none;
   }
 }
 /* ******FOOTER SECTION********* */
